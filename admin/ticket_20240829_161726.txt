@@ -1,0 +1,8 @@
+Ticket de venta
+-----------------------------
+Producto: zapato_tres
+Cantidad: 3
+Subtotal: $1,170.00
+---------------------------
+Total: $1,170.00
+Gracias por su compra

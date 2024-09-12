@@ -1,0 +1,8 @@
+Ticket de venta
+-----------------------------
+Producto: zapato_cuatro
+Cantidad: 5
+Subtotal: $2,600.00
+---------------------------
+Total: $2,600.00
+Gracias por su compra

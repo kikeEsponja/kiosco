@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+section {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#inventario{
+    width: 100%;
+}
+#cart{
+    width: 55%;
+}
+h2 {
+    margin-top: 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.botones{
+    width: 50%
+}
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin: 1%;
+}
+button:hover {
+    background-color: #218838;
+}
+.quitar:hover{
+    background: #a21717;
+}
+#adm:hover{
+    background: #f7d53f;
+    color: #000;
+}
+#filtro{
+    width: 250px;
+    height: 30px;
+}
+@media(max-width: 460px){
+    #inventario{
+        width: 35%;
+    }
+    #cart{
+        width: 30%;
+    }
+    #filtro{
+        width: 90%;
+    }
+    li{
+        flex-direction: column;
+    }
+}
+@media(max-width: 340px){
+    .carrito-tlf{
+        display: none;
+    }
+}

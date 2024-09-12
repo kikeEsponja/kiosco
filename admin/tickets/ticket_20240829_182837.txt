@@ -1,0 +1,8 @@
+Ticket de venta
+-----------------------------
+Producto: iguana
+Cantidad: 3
+Subtotal: $1,560.00
+---------------------------
+Total: $1,560.00
+Gracias por su compra
